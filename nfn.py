@@ -77,7 +77,7 @@ def get_most_relevant_sentence(query):  #obtenir la phrase la plus pertinente
         #on vérifie si la situation calculée pour la phrase courant est supérieur à la similarité maximale trouvée
         if similarity > max_similarity :
             max_similarity = similarity
-            most_relevant_sentence = sentence[i]
+            most_relevant_sentence = sentences[i]
     return most_relevant_sentence
 
 #Interface streamlit 
