@@ -54,7 +54,7 @@ def get_most_relevant_sentence(query):  #obtenir la phrase la plus pertinente
     #on initialise une variable max_similarity à 0
     #Cette variable va stocker le score de similarité maximal trouvé jusqu'à présent
     #Au début, on n'a pas encore comparé à aucune phrase, donc la similarité maximale est égal à zéro
-    max_similarity = -1
+    max_similarity = 0
 
     #on initialise une variable most_relevant_sentence à une chaîne de caractére vide
     #cette variable va stocker la phrase du corpus qui a la plus grande similarité avec la requête
