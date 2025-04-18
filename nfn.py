@@ -3,7 +3,7 @@ import nltk
 # Télechargement des ressources nécessaires 
 
 nltk.download('punkt_tab')  #Nécessaire pour découper un texte en phrase et en mots (tokenisation)
-nltk.download('averaged_perceptron_targger') #C'est nécessaire pour reconnaitre la nature des mots(nom, verbe, adjectif)=étiquetage grammatical
+nltk.download('averaged_perceptron_tagger') #C'est nécessaire pour reconnaitre la nature des mots(nom, verbe, adjectif)=étiquetage grammatical
 nltk.download('stopwords') #liste des mots courants inutiles pour l'analyse(exemple: le, la, les,...), à suprimer du texte
 nltk.download('wordnet')  #dictionnaire lexical pour faire de la lemmatisation(trouver la forme de base des mots)
 nltk.download('omw-1.4')  #nécessaire pour que WordNet puisse fonctioné correctement
